@@ -91,7 +91,6 @@ module.exports = {
     'no-shadow': [2, {builtinGlobals: true}],
     'no-undef': 2,
     'no-unused-vars': 1,
-    'no-use-before-define': [2, {functions: false}],
 
     //  Node.js and CommonJS
 
