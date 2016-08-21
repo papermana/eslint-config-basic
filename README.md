@@ -1,5 +1,5 @@
-# eslint-config-basic
-Just my basic ESLint config
+# `eslint-config-personal`
+Just my personal ESLint config.
 
 The rules were last revised for versions:
   * basic: `eslint` 3.3.1
