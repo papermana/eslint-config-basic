@@ -1,10 +1,11 @@
-# `eslint-config-personal`
+# eslint-config-personal
 Just my personal ESLint config.
 
+## Is it up to date?
 The rules were last revised for versions:
-  * basic: `eslint` 3.3.1
-  * react: `eslint-plugin-react` 6.1.2
-  * react-native: `eslint-plugin-react-native` 2.0.0
+  * `eslint` 3.3.1
+  * `eslint-plugin-react` 6.1.2
+  * `eslint-plugin-react-native` 2.0.0
 
 ## Usage
 1. Save this config, as well as the ESLint package:
