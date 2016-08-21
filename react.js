@@ -23,7 +23,7 @@ module.exports = {
     'react/jsx-closing-bracket-location': [1, 'after-props'],
     'react/jsx-curly-spacing': [1, 'never'],
     'react/jsx-equals-spacing': [1, 'never'],
-    // 'react/jsx-filename-extension': 2,
+    'react/jsx-filename-extension': 2,
     'react/jsx-indent': [1, 2],
     'react/jsx-indent-props': [1, 2],
     'react/jsx-key': 2,
