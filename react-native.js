@@ -1,8 +1,10 @@
 module.exports = {
-  sourceType: 'module',
-  ecmaFeatures: {
-    jsx: true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
+  sourceType: 'module',
   plugins: ['react-native'],
   rules: {
     'react-native/no-unused-styles': 1,

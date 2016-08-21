@@ -1,9 +1,11 @@
 module.exports = {
   extends: ['plugin:react/recommended'],
-  sourceType: 'module',
-  ecmaFeatures: {
-    jsx: true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
+  sourceType: 'module',
   plugins: ['react'],
   rules: {
     'react/forbid-prop-types': 1,
