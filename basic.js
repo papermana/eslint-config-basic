@@ -88,7 +88,7 @@ module.exports = {
     //  Variables
     'no-label-var': 2,
     'no-shadow-restricted-names': 2,
-    'no-shadow': [2, {builtinGlobals: true}],
+    'no-shadow': 2,
     'no-undef': 2,
     'no-unused-vars': 1,
 
