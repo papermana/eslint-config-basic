@@ -1,9 +1,11 @@
 module.exports = {
   extends: ['plugin:react/recommended'],
-  sourceType: 'module',
-  ecmaFeatures: {
-    jsx: true,
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
+  sourceType: 'module',
   plugins: ['react'],
   rules: {
     'react/forbid-prop-types': 1,
@@ -12,7 +14,6 @@ module.exports = {
     'react/no-did-update-set-state': 1,
     'react/no-direct-mutation-state': 2,
     'react/no-unknown-property': 2,
-    'react/prefer-stateless-function': 1,
     'react/prop-types': 1,
     'react/react-in-jsx-scope': 2,
     'react/require-render-return': 2,

@@ -1,21 +1,18 @@
 {
-  "name": "@papermana/eslint-config-basic",
-  "version": "1.2.0",
-  "description": "Just my own basic ESLint config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/papermana/eslint-config-basic.git"
-  },
+  "name": "@papermana/eslint-config-personal",
+  "version": "2.0.0",
+  "description": "Just my personal ESLint config",
+  "author": "papermana",
+  "license": "MIT",
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
-  "author": "papermana",
-  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/papermana/eslint-config-basic.git"
+  },
   "bugs": {
     "url": "https://github.com/papermana/eslint-config-basic/issues"
   },
